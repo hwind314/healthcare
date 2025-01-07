@@ -1,0 +1,8 @@
+About Dataset:
+
+1) observations.csv file contains nine columns: 'DATE', 'PATIENT', 'ENCOUNTER', 'CATEGORY', 'CODE', 'DESCRIPTION', 'VALUE', 'UNITS', and 'TYPE'. Each row represents a health record for a patient and contains the date and time of the record, the unique ID of the patient, the unique ID of the encounter, the category of the record (e.g. vital signs), the code for the record (a standardized code for the type of measurement or observation), a description of the record, the value of the record (e.g. the patient's height in centimeters), the units for the value, and the data type of the value.
+
+2) patients_modified.csv contains data related to patients, including their personal information such as ID, birth and death dates (if applicable), Social Security Number (SSN), driver's license and passport numbers, name, race, ethnicity, and gender. It also includes their address, zip code, latitude/longitude, city, state, and county, as well as information about their healthcare expenses and coverage. Some columns in this dataset was modified using string concatenation.
+
+Dataset source:
+Umer, M. (2021). Healthcare Dataset [Data set]. Retrieved May 4, 2023, from https://www.kaggle.com/datasets/blackgraywhitewhite/healthcare-dataset
